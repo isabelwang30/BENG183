@@ -1,10 +1,10 @@
 # Hierarchical Clustering
 
 ## Overview
-1. What is clustering?
-2. Hierarchical clustering technique
-3. Calculating similarity
-4. Limits on hierarchical clustering
+1. What is Clustering?
+2. Hierarchical Clustering technique
+3. Calculating Similarity
+4. Limits on Hierarchical Clustering
 
 ## What is clustering?
 
@@ -51,7 +51,7 @@ Take the two closest points in each cluster, calculate their similarity and decl
 
 **Downsides** of single-linkage is that it is not sensitive to noise.
 
-### Max distance (Complete-linkage)
+### Max distance (Complete-linkage algorithm)
 
 *Sim(C1,C2) = Max Sim(Pi,Pj) such that Pi ∈ C1 & Pj ∈ C2*
 
@@ -61,7 +61,7 @@ Pick the two farthest points from each other, calculate their similarity to dete
 
 **Downside** to complete-linkage is that it will group large groups together in inaccurate ways.
 
-### Mean distance
+### Mean distance (UPGMA Linkage)
 
 *sim(C1,C2) = ∑ sim(Pi, Pj)/|C1|x|C2 where, Pi ∈ C1 & Pj ∈ C2*
 
