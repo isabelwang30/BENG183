@@ -29,7 +29,7 @@ Initially, each data point is an individual cluster.
 
 Data can be represented with a dendrogram, which shows visually where the data merged and split.
 
-![dendrogram image](dendrogram.png)
+INSERT IMAGE
 
 ### Divisive Clustering
 
@@ -44,7 +44,7 @@ A key step in both divisive and agglomerative clustering is calculating the simi
 
 ### Min distance (Single-linkage algorithm)
 
-    *Sim(C1,C2) = Min Sim(Pi,Pj) such that Pi ∈ C1 & Pj ∈ C2*
+    *similar(A1,A2) = Min similar(Bi,Bj) such that Bi ∈ A1 & Bj ∈ A2*
 
 Take the two closest points in each cluster, calculate their similarity and declare that the similarity of the two clusters.
 <img width="281" alt="Clustering3" src="https://github.com/b1sanchez/BENG183/assets/96998684/e6951f68-7066-4621-ad34-54e97064c30a">
@@ -55,7 +55,7 @@ Take the two closest points in each cluster, calculate their similarity and decl
 
 ### Max distance (Complete-linkage algorithm)
 
-    *Sim(C1,C2) = Max Sim(Pi,Pj) such that Pi ∈ C1 & Pj ∈ C2*
+    *similar(A1,A2) = Max similar(Bi,Bj) such that Bi ∈ A1 & Bj ∈ A2*
 
 Pick the two farthest points from each other, calculate their similarity to determine the similarity between the two clusters.
 <img width="299" alt="Clustering2" src="https://github.com/b1sanchez/BENG183/assets/96998684/1899541b-f2c4-4025-a137-150e3944e9b7">
@@ -66,7 +66,7 @@ Pick the two farthest points from each other, calculate their similarity to dete
 
 ### Mean distance (UPGMA Linkage)
 
-    *Sim(C1,C2) = ∑ sim(Pi, Pj)/|C1|x|C2 where, Pi ∈ C1 & Pj ∈ C2*
+    *Similar(A1,A2) = ∑ similar(Bi, Bj)/|A1|x|A2 where, Bi ∈ A1 & Bj ∈ A2*
 
 Take all pairs of points and calculate their similarity to create an average across clusters.
 <img width="274" alt="Clustering1" src="https://github.com/b1sanchez/BENG183/assets/96998684/7442a8e0-054e-4e28-9f51-d0b432ae2f03">
@@ -97,11 +97,15 @@ The time-complexity for hierarchical clustering is very high, making it ineffici
 
 There are many other forms of clustering as well! See all the world has to offer below:
 
-![clusters](clusters)(/Users/ellasay/Downloads/clusters.png)
+<img width="274" alt="Cluster_types" src="https://github.com/ellaksay/BENG183/blob/main/clusters.png">
 
 ## References
 1. UCSD BENG 183 Lecture Slides
 2. [Advantages of Hierarchical Clustering](https://codinginfinite.com/hierarchical-clustering-applications-advantages-and-disadvantages/)
+3. [Cluster Image](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftowardsdatascience.com%2Fthe-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68&psig=AOvVaw0wY-QUMLK4uLpdMVm4kBDQ&ust=1702495156854000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNC-i-vOioMDFQAAAAAdAAAAABAD)
+4. [Dendrogram Image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fforum.knime.com%2Ft%2Fhierarchical-clustering-dendrogram%2F19313&psig=AOvVaw205Do-bZLCXVUx8sNdeEZw&ust=1702495390876000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLDmr-LPioMDFQAAAAAdAAAAABAD)
+5. [Understanding Hierarchical Clustering](https://towardsdatascience.com/understanding-the-concept-of-hierarchical-clustering-technique-c6e8243758ec)
+
 
 
 
