@@ -29,7 +29,7 @@ Initially, each data point is an individual cluster.
 
 Data can be represented with a dendrogram, which shows visually where the data merged and split.
 
-INSERT IMAGE
+<img width="274" alt="Cluster_types" src="https://github.com/ellaksay/BENG183/blob/main/dendrogram.jpeg">
 
 ### Divisive Clustering
 
