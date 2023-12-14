@@ -87,7 +87,7 @@ All three of the similarity measures discussed above depend on distance calculat
 
 ### Euclidean Distance
 
-$\sqrt{\sum_{i=1}^n (x_i-y_i)^2}$ , for an n-dimensional space
+$$\sqrt{\sum_{i=1}^n (x_i-y_i)^2}$$ , for an n-dimensional space
   
 <img width="500" alt="Euclidean Distance Visual" src="https://d2mk45aasx86xg.cloudfront.net/image1_11zon_fa4497e473.webp">
 
@@ -95,7 +95,7 @@ Euclidean distance represents the shortest distance between two points, and it i
 
 ### Manhattan Distance
 
-$\sum_{i=1}^n |x_i-y_i|$ for an n-dimensional space
+$$\sum_{i=1}^n |x_i-y_i|$$ , for an n-dimensional space
 
 <img width="500" alt="Manhattan Distance Visual" src="https://d2mk45aasx86xg.cloudfront.net/image5_11zon_7723f44a19.webp">
 
