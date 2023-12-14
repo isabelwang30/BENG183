@@ -123,10 +123,11 @@ Here are a few example bioinformatics questions that can be investigated using h
 3. Are there different subpopulations of patients who respond differently to a given drug based on their transcriptomic profiles?
 
 ## Other Types of Clustering
-1. K-means clustering: declares the *k* number of clusters from the start. 
+Here are brief descriptions of two other popular clustering algorithms:
+1. K-means clustering: declares the *k* number of clusters from the start and places each data point in the nearest cluster while minimizing the size of the clusters. 
 2. Density-based clustering: creates clusters based off of density rather than absolute distance.
 
-There are many other forms of clustering as well! See all the world has to offer below:
+There are many other clustering algorithms as well! See all the world has to offer below:
 ![Other Clustering Methods](https://github.com/ellaksay/BENG183/blob/main/clusters.png)
 
 ## References
