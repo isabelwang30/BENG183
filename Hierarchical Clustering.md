@@ -87,21 +87,21 @@ All three of the similarity measures discussed above depend on distance calculat
 
 ### Euclidean Distance
 
-For an n-dimensional space:
-$$\sqrt{\sum_{i=1}^n (x_i-y_i)^2}$$
+Euclidean distance represents the shortest distance between two points, and it is calculated using the principle of the Pythagorean theorem. In many machine learning algorithms, it is the default distance metric. However, it requires the data points to have continuous, numeric features.
+
+To calculate the Euclidean distance between two data points, *x* and *y*, in an n-dimensional space:
+$$Euclidean(x,y) = \sqrt{\sum_{i=1}^n (x_i-y_i)^2}$$
   
 <img width="500" alt="Euclidean Distance Visual" src="https://d2mk45aasx86xg.cloudfront.net/image1_11zon_fa4497e473.webp">
 
-Euclidean distance represents the shortest distance between two points, and it is calculated using the principle of the Pythagorean theorem. In many machine learning algorithms, it is the default distance metric. However, it requires the data points to have continuous, numeric features.
-
 ### Manhattan Distance
 
-For an n-dimensional space:
-$$\sum_{i=1}^n |x_i-y_i|$$
+Manhattan distance (aka cityblock distance) calculates the distance between the coordinates of two points using a grid-like path. This metric is more effective when the data points have discrete or binary features.
+
+To calculate the Manhattan distance between two data points, *x* and *y*, in an n-dimensional space:
+$$Manhattan(x,y) = \sum_{i=1}^n |x_i-y_i|$$
 
 <img width="500" alt="Manhattan Distance Visual" src="https://d2mk45aasx86xg.cloudfront.net/image5_11zon_7723f44a19.webp">
-
-Manhattan distance (aka cityblock distance) calculates the distance between the coordinates of two points using a grid-like path. This metric is more effective when the data points have discrete or binary features.
 
 ## Limitations of Hierarchical Clustering
 
